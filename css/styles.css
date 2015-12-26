@@ -1,0 +1,129 @@
+html,
+body,
+#wrapper {
+  height: 100%;
+}
+body {
+  background-color: #efefef;
+  background-image: url("../img/bg/1.jpg");
+}
+#backgraund {
+  background-color: #222;
+  height: 50px;
+  width: inherit;
+}
+.cont_footer {
+  color: white;
+  padding-top: 10px;
+}
+#img:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.instead_gallery {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20% auto;
+}
+#first,
+#second,
+#third,
+#work,
+#study,
+#fourth {
+  display: none;
+}
+#footer {
+  background-color: #222;
+  color: white;
+  height: 40px;
+  margin-top: 20px;
+  width: auto;
+}
+#logo {
+  color: white;
+  margin-top: 0;
+}
+ol {
+  padding: 0 15px;
+}
+#top_right {
+  text-align: center;
+}
+#to_top_main {
+  padding-top: 7px;
+}
+.to_top {
+  color: white;
+}
+.to_top:hover {
+  cursor: pointer;
+}
+#trade {
+  padding-top: 10px;
+  text-align: right;
+}
+#trade a {
+  color: white;
+  font-size: 12px;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
