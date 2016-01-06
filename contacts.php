@@ -13,11 +13,15 @@
             <button type="button" id="s" class="btn btn-default swing">Телефоны</button>
             <br>
             <br>
+            <button type="button" id="sk" class="btn btn-default swing">Skype</button>
+            <br>
+            <br>
             <button type="button" id="th" class="btn btn-default swing">E-mail</button>
             <br>
             <br>
             <button type="button" id="fou" class="btn btn-default swing">Соцсети</button>
         </div><!--.left-->
+
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 right">
             <div id="img"><img src="img/web-custom.png" class="img-responsive" alt=""></div>
             <div id="first">
@@ -37,21 +41,38 @@
                 <h3>Телефоны</h3>
                 <table class="table">
                     <tr>
-                        <td>Домашний</td>
-                        <td>758-06-03</td>
-                    </tr>
-                    <tr>
                         <td>Контактные</td>
                         <td> (067)128-32-59; (063)623-58-70;</td>
                     </tr>
                 </table>
             </div>
+
+            <div id="skype">
+                <h3>Skype</h3>
+                <table class="table">
+                    <tr>
+                        <td>Имя</td>
+                        <td>Yurii Radov</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td>radov.yuriy@ukr.net</td>
+                    </tr>
+                    <tr>
+                        <td>Логин</td>
+                        <td>radov.yuriy</td>
+                    </tr>
+
+                </table>
+            </div>
+
             <div id="third">
                 <h3>E-mail</h3>
                 <ul>
                     <li><a href="mailto:radov.yuriy@ukr.net"><h4>radov.yuriy@ukr.net</h4></a></li>
                 </ul>
             </div>
+
             <div id="fourth">
                 <h3>Соцсети</h3>
                 <ul>

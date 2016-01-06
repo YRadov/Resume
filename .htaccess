@@ -1,6 +1,7 @@
 # Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
 RewriteBase /
 Options +FollowSymlinks
+
 # Включаем mod_rewrite
 RewriteEngine On
 
@@ -8,7 +9,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # В противном случае перенаправляем на index.php
-RewriteRule (\w*$) $1.php
-RewriteRule home index.php
+RewriteRule (\w*)$ $1.php?content=$1
+RewriteRule home index.php?content=home
 RewriteRule resume img/CV_Radov_Yurii.pdf
 ErrorDocument 404 /page404.html

@@ -25,7 +25,7 @@
 					- Семья<br>
 					- Интересы
                 </b></p>
-				<a href="mi" class="da-link">Подробнее</a>
+				<a href="about" class="da-link">Подробнее</a>
 				<div class="da-img"><img src="img/hobby.png" alt="image01" height=256 width=256 /></div>
 			</div>
 			<div class="da-slide">
@@ -45,7 +45,7 @@
 					- Где?<br>
 					- Когда?
                 </b></p>
-				<a href="resume" class="da-link">Подробнее</a>
+				<a href="resume" class="da-link" target="_blank">Подробнее</a>
 				<div class="da-img"><img src="img/3.png" alt="resume" height=256 width=256 /></div>
 			</div>
 			<nav class="da-arrows">

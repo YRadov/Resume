@@ -1,9 +1,8 @@
-//Плывущий фон
 var bg_Offset = 0;
 function scroll_bg(){
     bg_Offset = bg_Offset + 1;
     if (bg_Offset > 1920) bg_Offset = 0;
-    //$("body").css("backgroundPosition", "0px " + bg_Offset + "px"); //сверху вниз
+    //$("body").css("backgroundPosition", "0px " + bg_Offset + "px"); //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     $("body").css("backgroundPosition", bg_Offset + "px 0px");
 }
 
@@ -12,13 +11,11 @@ function scroll_bg(){
 
 $(document).ready(function(){
 
-    //плывущий фон
     setInterval("scroll_bg()", 50);
 
     //fancybox
 	//$(".single_image").fancybox();
 
-    //изменение контента
     $('button').click(function(){
         var item = $(this).attr('id');
         var text;
@@ -48,17 +45,17 @@ $(document).ready(function(){
                 text = 'fourth';
                 break;
 
+            case 'sk':
+                text = 'skype';
+                break;
+
+
         }
         $('.right div').fadeOut();
         $('#'+text+', .'+text).delay(500).fadeIn(1000);
     });
 
-	/**
-	*Плавный переход
-	*к заданному месту
-	*на странице по 
-	*якорю
-	*/
+
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
 
@@ -72,9 +69,7 @@ $(document).ready(function(){
 		});
 	});
 			
-	/**
-	*Плавный скролтнг вверх
-	*/
+
 	$(".go-up").hide();
 	$(function () {
 		$(window).scroll(function () {

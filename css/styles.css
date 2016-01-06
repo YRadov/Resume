@@ -3,6 +3,10 @@ body,
 #wrapper {
   height: 100%;
 }
+.active {
+  border-bottom: 3px solid white;
+  color: white!important;
+}
 body {
   background-color: #efefef;
   background-image: url("../img/bg/1.jpg");
@@ -84,7 +88,8 @@ body {
 #third,
 #work,
 #study,
-#fourth {
+#fourth,
+#skype {
   display: none;
 }
 #footer {
